@@ -45,6 +45,8 @@ Ansible плейбуков и т.п. Решения в виде PAM модуле
 * [SmallStep][] - используется отдельный CLI для обертывания SSH;
 * [pam-oauth2][] - PAM модуль на С;
 * [pam-exec-oauth2][] - PAM модуль на Go.
+* [pam-keycloak-oidc][] - случайно нашел в глубинах гитхаба, это кажется почти
+  то что нужно.
 
 ## Идея
 
@@ -149,3 +151,4 @@ auth sufficient pam_oidc.so expose_authtok /path/to/pam_oidc
 [SmallStep]: https://smallstep.com "SmallStep"
 [pam-oauth2]: https://github.com/CyberDem0n/pam-oauth2 "pam-oauth2"
 [pam-exec-oauth2]: https://github.com/shimt/pam-exec-oauth2 "pam-exec-oauth2"
+[pam-keycloak-oidc]: https://github.com/zhaow-de/pam-keycloak-oidc "pam-keycloak-oidc"
